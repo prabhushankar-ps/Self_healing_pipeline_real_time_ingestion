@@ -102,15 +102,6 @@ Healing safety rate	heals that do not introduce duplicates/data loss	≥ 99%
 Root-cause attribution rate	failures tagged to known category (Kafka/schema/model/DB/etc.)	≥ 95%
 5) Model quality (offline, reproducible)
 
-If you have labeled data, publish:
-
-Accuracy / Precision / Recall / F1
-
-Confusion matrix
-
-Sentiment Consistency Rate: label agreement over N repeated runs (useful for non-deterministic LLM outputs)
-
-
 
 ![Airflow DAG](docs/images/airflow_dag.png)
 
